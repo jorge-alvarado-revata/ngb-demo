@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-**Configurar un proyecto angular con bootstrap
+**Configurar un proyecto angular con bootstrap**
 
 todo proyecto Front requiere tomar algunas decisiones sobre que componentes vamos a utilizar para manejar el diseño de la UI, 
 Angular es un framework completo que tiene herramientas para todas las etapas de la creación de una nueva aplicación web, entonces la decisión que framework de componentes 
@@ -18,7 +18,7 @@ En este primer post, vamos a crear una app en angular usando el conocido framewo
 
 Boostrap es un framework CSS, que nos aportará buena cantidad de elementos que nos ayudarán en el desarrollo de un proyecto.
 
-**Primeros pasos.
+**Primeros pasos.**
 
 1. crear un proyecto en angular.
 
@@ -33,14 +33,14 @@ https://ng-bootstrap.github.io/#/getting-started
 Aqui tiene esta tabla de compatbilidad.
 
 
-ng-bootstrap	Angular			Bootstrap CSS	Popper
-10.x.x			^12.0.0			4.5.0	
-11.x.x			^13.0.0			4.6.0	
-12.x.x			^13.0.0			5.0.0			^2.10.2
-13.x.x			^14.1.0			5.2.0			^2.10.2
-14.x.x			^15.0.0			5.2.3			^2.11.6
-15.x.x			^16.0.0			5.2.3			^2.11.6
-16.x.x			^17.0.0			5.3.2			^2.11.8
+|ng-bootstrap	    |Angular|			|Bootstrap CSS|	|Popper |
+|10.x.x|			|^12.0.0|			|4.5.0|	        |       |
+|11.x.x|			|^13.0.0|			|4.6.0|	        |       |
+|12.x.x|			|^13.0.0|			|5.0.0|			|^2.10.2|
+|13.x.x|		    |^14.1.0|			|5.2.0|			|^2.10.2|
+|14.x.x|			|^15.0.0|			|5.2.3|			|^2.11.6|
+|15.x.x|			|^16.0.0|			|5.2.3|			|^2.11.6|
+|16.x.x|			|^17.0.0|			|5.3.2|			|^2.11.8|
 
 Creamos un nuevo proyecto angular.
 
