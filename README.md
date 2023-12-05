@@ -6,22 +6,52 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+**Configurar un proyecto angular con bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+todo proyecto Front requiere tomar algunas decisiones sobre que componentes vamos a utilizar para manejar el diseño de la UI, 
+Angular es un framework completo que tiene herramientas para todas las etapas de la creación de una nueva aplicación web, entonces la decisión que framework de componentes 
+se utilizará es importante y no es poca cosa dado que ese compromiso de la aplicación y su generador de elementos UI afectará todas las decisiones de crecimiento de la interfaz.
 
-## Build
+Es posible que se pueda diseñar una app de modo que la UI sea lo más independiente del framework css pero es algo que exploraremos en un una siguiente entrega. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+En este primer post, vamos a crear una app en angular usando el conocido framework bootstrap en un proyecto angular. Angular puede trabajar con distintos frameworks UI y esta serie de entregas se centra en explorar distintas alternativas de frameworks UI usando Angular.
 
-## Running unit tests
+Boostrap es un framework CSS, que nos aportará buena cantidad de elementos que nos ayudarán en el desarrollo de un proyecto.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Primeros pasos.
 
-## Running end-to-end tests
+1. crear un proyecto en angular.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Es importante prestar atención a la versión que se tiene de angular, dado que eso influye en las versiones de bootstrap y sus dependencias, este punto es muy importante e influye en tener una instalación limpia o algunos dolores de cabeza por problemas de compatibilidad.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aqui es importante tener en cuenta el siguiente listado de compatibilidad.
+
+Vamos a usar esta implementación de los compoentes bootstrap para angular
+https://ng-bootstrap.github.io/#/getting-started
+
+Aqui tiene esta tabla de compatbilidad.
+
+
+ng-bootstrap	Angular			Bootstrap CSS	Popper
+10.x.x			^12.0.0			4.5.0	
+11.x.x			^13.0.0			4.6.0	
+12.x.x			^13.0.0			5.0.0			^2.10.2
+13.x.x			^14.1.0			5.2.0			^2.10.2
+14.x.x			^15.0.0			5.2.3			^2.11.6
+15.x.x			^16.0.0			5.2.3			^2.11.6
+16.x.x			^17.0.0			5.3.2			^2.11.8
+
+Creamos un nuevo proyecto angular.
+
+Para esta demostracion tenemos un angular cli version 16
+
+1. ng new ngb-demo
+2. ng add @ng-bootstrap/ng-bootstrap@v15
+
+Observar que la version 15 es compatible con la version 16 de angular.
+
+3. Organizar el proyecto para contar con un modulo exclusivo para importar los componentes boostrap
+4. importar ese modulo en el modulo principal
+5. Crear componentes que usen en el html referencias a ng-bootstrap
+6. Demo del proyecto en github: https://github.com/jorge-alvarado-revata/ngb-demo.git
