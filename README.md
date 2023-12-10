@@ -34,6 +34,7 @@ Aqui tiene esta tabla de compatbilidad.
 
 
 |ng-bootstrap	    |Angular|			|Bootstrap CSS|	|Popper |
+|------|			|-------|			|-----|	        |-------|
 |10.x.x|			|^12.0.0|			|4.5.0|	        |       |
 |11.x.x|			|^13.0.0|			|4.6.0|	        |       |
 |12.x.x|			|^13.0.0|			|5.0.0|			|^2.10.2|
